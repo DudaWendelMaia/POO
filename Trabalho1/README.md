@@ -1,7 +1,7 @@
 # 📚 Automatização da Biblioteca
 
 <div align="center"> 
-<img width="300" height="200" src="https://img.freepik.com/fotos-premium/jogo-de-xadrez-com-rainha-dourada-e-pecas-de-xadrez-prateadas-em-fundo-escuro-representando-equipe-de-lideranca_908985-40886.jpg">
+<img width="400" height="100" src="https://cdn.pixabay.com/photo/2020/04/26/01/34/books-5093228_960_720.png">
 </div>
 
 ## ℹ️ Informações
