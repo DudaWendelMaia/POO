@@ -1,55 +1,74 @@
-Exercicio desenvolvido para o trabalho 2 da cadeira de Programação Orientada a Objetos
-# Exercício de Avaliação 2
+# 💿 Acervo Audiovisual
 
-## 1. Enunciado geral:
-A ACMEFun comercializa itens de audiovisual (blu-rays e games) e já possui dados de seu
-acervo armazenados em arquivo-texto e deseja uma aplicação que faça o processamento de dados
-deste acervo.Você será responsável pelo desenvolvimento da aplicação.
+<div align="center"> 
+<img width="200" height="200" src="https://png.pngtree.com/png-clipart/20220117/original/pngtree-audio-visual-audio-visual-play-promotional-video-mobile-internet-2-5d-png-image_7150034.png">
+</div>
 
-O analista de sistemas gerou um diagrama de classes inicial, com alguns atributos, operações
-e relacionamentos apresentados a seguir. O analista definiu as seguintes operações da interface Cobravel:
+## ℹ️ Informações
+- **Autores:** Maria Maia
+- **Data:** 08/04/2023
+- **Linguagem:** Java
+- **Status:** Concluído
+- **Descrição:** Solução do problema da automatização da biblioteca.
+- **Link:** https://github.com/DudaWendelMaia/POO
 
-1. calculaPrecoVenda(): calcula e retorna o preço de venda de um item.
-2. calculaImposto(): calcula e retorna o valor de imposto de um item.
+## 🎯 Problema
 
+A ACMEFun comercializa itens de audiovisual (blu-rays e games) e possui dados do acervo em um arquivo-texto. A empresa deseja uma aplicação para processar esses dados, e você será responsável pelo desenvolvimento.
 
-Sabe-se que será necessário haver subclasses da classe abstrata Audiovisual. Cada
-subclasse possui informações adicionais específicas:
+### Especificações da Aplicação
 
-1. BluRay: possui uma duração (em minutos).
-2. Game: possui uma categoria (que pode ser: ACAO, ESPORTE, ESTRATEGIA,
-SIMULACAO ou RPG).
+#### Interface `Cobravel`
 
-O método calculaPrecoVenda() depende da subclasse:
-1. BluRay:
-(preço base x duração) / 100
-2. Game: é o preço base acrescido de um percentual sobre o preço base conforme a
-categoria: 20% se for ACAO; 30% se for ESPORTE; 40% se for ESTRATEGIA; 50%
-se for SIMULACAO ou 70% se for RPG.
+1. `calculaPrecoVenda()`: Calcula e retorna o preço de venda de um item.
+2. `calculaImposto()`: Calcula e retorna o valor do imposto de um item.
 
-O método calculaImposto() depende da subclasse:
+#### Subclasses da Classe Abstrata `Audiovisual`
 
-• BluRay: 40% do valor do preço de venda.
-• Game: 50% do valor do preço de venda.
+1. **BluRay**: Possui duração (em minutos).
+   - Preço de venda: \((preço \, base \times duração) / 100\)
+   - Imposto: 40% do preço de venda.
+2. **Game**: Possui categoria (ACAO, ESPORTE, ESTRATEGIA, SIMULACAO, RPG).
+   - Preço de venda: Preço base + percentual conforme a categoria:
+     - ACAO: 20%
+     - ESPORTE: 30%
+     - ESTRATEGIA: 40%
+     - SIMULACAO: 50%
+     - RPG: 70%
+   - Imposto: 50% do preço de venda.
 
+#### Método `executa()` da Classe `App`
 
-O método executa() da classe App deve realizar a sequência de passos:
+1. **Ler audiovisuais**: Lê os dados e escreve a quantidade de itens carregados: `1;quantidade de itens carregados`.
+2. **Escrever informações dos itens**: Escreve informações para cada item: `2;título;valor do preço final;valor do imposto`.
+3. **Contar games RPG**: Escreve a quantidade de games RPG: `3;quantidade de games RPG`.
+4. **BluRay com imposto mais próximo da média**: Calcula a média dos impostos dos BluRays e escreve o BluRay com imposto mais próximo da média: `4;média dos valores de impostos de BluRays;título do BluRay com imposto mais próximo da média`. Caso não haja BluRays: `4:Nenhum BluRay`.
 
-1. Ler audiovisuais: lê todos os dados de audiovisuais e escreve a quantidade de
-itens carregados com sucesso no formato: 1;quantidade de itens
-carregados
-2. Escrever informações dos itens: escreve algumas informações para cada item
-carregado com sucesso no sistema, no formato: 2;título;valor do preço
-final;valor do imposto
-3. Escrever quantos games RPG foram cadastrados: escreve a quantidade de
-games da categoria RPG que foram carregados no sistema no formato:
-3;quantidade de games RPG
-4. Escrever o BluRay com imposto mais próximo da média: calcula a média dos
-valores de imposto de BluRays carregados e escreve qual BluRay possui o valor
-de imposto mais próximo da média calculada, no formato: 4:média dos valores
-de impostos de BluRays;título do BluRay com imposto mais
-próximo da média. Caso não haja BluRays, escreve no formato: 4:Nenhum
-BluRay
+#### Entrada e Saída de Dados
 
-A leitura de dados deverá ser realizada no arquivo dados.csv e a escrita de dados deverá ser
-realizada no arquivo resultado.csv.
+- **Entrada**: Arquivo `dados.csv`.
+- **Saída**: Arquivo `resultado.csv`.
+
+## ▶️ Como Executar
+Certifique-se de ter o JDK instalado. Clone o repositório e compile o código Java.
+
+1. Clone o repositório:
+    ```sh
+    https://github.com/DudaWendelMaia/POO
+    ```
+
+2. Navegue até a pasta do projeto:
+    ```sh
+    cd Trabalho2
+    ```
+
+3. Compile o código:
+    ```sh
+      javac Main.java
+    ```
+
+4. Execute o programa:
+    ```sh
+      java Main
+    ```
+
