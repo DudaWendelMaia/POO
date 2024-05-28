@@ -6,7 +6,7 @@
 
 ## ℹ️ Informações
 - **Autores:** Maria Maia
-- **Data:** 08/04/2023
+- **Data:** 10/05/2023
 - **Linguagem:** Java
 - **Status:** Concluído
 - **Descrição:** Solução do problema da automatização da biblioteca.
