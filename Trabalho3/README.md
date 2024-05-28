@@ -37,11 +37,11 @@ Certifique-se de ter o JDK instalado. Clone o repositório e compile o código J
 
 3. Compile o código:
     ```sh
-      javac Main.java
+      javac CadastroCliente.java
     ```
 
 4. Execute o programa:
     ```sh
-      java Main
+      java CadastroCliente
     ```
 
