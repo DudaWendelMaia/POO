@@ -4,7 +4,14 @@
 <img width="300" height="200" src="https://i.pinimg.com/originals/e7/26/c7/e726c74ac081eed50feee1433d12c998.gif">
 </div>
 
-Bem-vindo ao repositório da disciplina de **Programação Orientada a Objetos (POO)** que foi realizada em 2023/01! Este espaço é dedicado aos trabalhos, projetos e exercícios desenvolvidos durante esta cadeira, explorando os fundamentos e práticas de POO.
+Bem-vindo ao repositório da disciplina de **Programação Orientada a Objetos**! Este espaço é dedicado aos trabalhos, projetos e exercícios desenvolvidos durante esta cadeira, explorando os fundamentos e práticas de POO.
+
+## ℹ️ Informações
+
+- **Status:** Concluída
+- **Realizada em:** 2023/01
+- **Nome:** Programação Orientada a Objetos
+- **Link:** https://github.com/DudaWendelMaia/POO.git
 
 ## 🌟 Visão Geral
 
@@ -47,14 +54,16 @@ Para explorar os trabalhos e projetos:
 
 ## 🚀 Trabalhos Destaques
 
-### Projeto Final: Aplicação prática de POO
-Este projeto final envolve a criação de uma aplicação que demonstra a aplicação de todos os conceitos aprendidos em POO.
+### Trabalho 1: Automatização da Biblioteca
+Este projeto consiste em desenvolver um aplicativo para automatizar o gerenciamento de livros e autores em um catálogo.
 
-### Trabalho 1: Implementação de classes e objetos
-Este trabalho consiste na implementação de classes com métodos e atributos encapsulados, demonstrando o uso básico de POO.
+### Trabalho 2: Acervo Audiovisual
+Este trabalho consiste na implementação de uma aplicação para processar os dados do acervo, calcular preços de venda e 
+impostos, e gerar relatórios específicos.
 
-### Exemplo de Herança
-Implementação de classes utilizando herança para demonstrar a relação entre classes pai e subclasses.
+### Trabalho 3: Cadastro Cliente
+O objetivo deste trabalho é implementar uma aplicação com interface gráfica de usuário (GUI) que dê para cadastrar um 
+novo cliente
 
 ## 📫 Contato
 
