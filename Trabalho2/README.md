@@ -9,7 +9,7 @@
 - **Data:** 10/05/2023
 - **Linguagem:** Java
 - **Status:** Concluído
-- **Descrição:** Solução do problema da automatização da biblioteca.
+- **Descrição:** aplicação que faz o gerenciamento do acervo e calcula os preços
 - **Link:** https://github.com/DudaWendelMaia/POO
 
 ## 🎯 Problema
